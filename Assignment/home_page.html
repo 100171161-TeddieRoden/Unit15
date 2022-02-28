@@ -19,6 +19,8 @@
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<!-- Bootstrap Optional JavaScript -->
 <body>
+	<!-- Scripts -->
+
 	<!-- This is a suggestion please amend as appropriate - refer to w3schools - https://www.w3schools.com/html/html5_intro.asp -->
 		<header>
 			<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
@@ -64,13 +66,21 @@
 		</header>
 		
 		<main>	
+
 			<section>
 
 			</section>
+
 		</main>
 
 		<footer>
 			
 		</footer>
+		<p id="dateandtime"></p>
+
+		<script>
+			const d = new Date();
+			document.getElementById("dateandtime").innerHTML = d;
+			</script>
 </body>
 </html>
